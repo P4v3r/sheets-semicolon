@@ -10,6 +10,9 @@ func delimiterForPath(path string) rune {
 	if strings.HasSuffix(strings.ToLower(path), ".tsv") {
 		return '\t'
 	}
+	if strings.HasSuffix(strings.ToLower(path), ".csv") { // new: semicolon-separated
+ 		return ';'
+ 	}
 	return ','
 }
 
