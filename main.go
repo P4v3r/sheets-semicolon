@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 
-	"github.com/maaslalani/sheets/internal/sheets"
+	"github.com/P4v3r/sheets/internal/sheets"
 )
 
 func main() {
