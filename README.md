@@ -91,6 +91,23 @@ Press <kbd>:</kbd> to open the command prompt, then use commands such as:
 
 ## Installation
 
+**If you don't have GO installed:**
+
+**Install GO**
+```sh
+brew install go
+```
+
+**Configure the PATH**
+```sh
+echo 'export PATH="$HOME/go/bin:$PATH"' >> ~/.zshrc
+source ~/.zshrc
+```
+
+then:
+
+**Clone and install**
+
 ```sh
 git clone https://github.com/P4v3r/sheets-semicolon.git
 cd sheets-semicolon
