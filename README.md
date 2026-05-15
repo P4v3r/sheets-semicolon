@@ -1,4 +1,4 @@
-# Sheets
+# Sheets semicolon separation
 
 Spreadsheets in your terminal.
 
@@ -91,19 +91,11 @@ Press <kbd>:</kbd> to open the command prompt, then use commands such as:
 
 ## Installation
 
-Install with Homebrew on macOS or Linux:
-
 ```sh
-brew install sheets
+git clone https://github.com/P4v3r/sheets-semicolon.git
+cd sheets-semicolon
+go install .
 ```
-
-Or install with Go:
-
-```sh
-go install github.com/maaslalani/sheets@main
-```
-
-Or download a binary from the [releases](https://github.com/maaslalani/sheets/releases).
 
 ## License
 
