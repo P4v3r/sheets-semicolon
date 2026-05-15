@@ -1,4 +1,4 @@
-module github.com/maaslalani/sheets-semicolon
+module github.com/maaslalani/sheets
 
 go 1.25.7
 
